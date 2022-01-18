@@ -43,10 +43,14 @@ namespace Reflection
         public static void Main()
         {
             Car car = new("Toyota", "Aygo", "ASD9890548FT", 2001, 1995);
+
             Console.WriteLine(car.Value());
             Console.WriteLine(car.Year());
             Console.WriteLine(car.ToString());
             Console.ReadLine();
+
+            
+
         }
 
     }
